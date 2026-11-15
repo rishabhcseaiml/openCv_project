@@ -1,0 +1,23 @@
+
+# Python virtual environments
+.venv/
+.venv*/
+venv/
+env/
+pose_env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log

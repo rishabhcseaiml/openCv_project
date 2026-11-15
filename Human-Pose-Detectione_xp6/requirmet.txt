@@ -1,0 +1,29 @@
+opencv-python
+mediapipe
+pip install -r requirements.txt
+
+             Webcam
+                │
+                ▼
+        Capture Video Frame
+                │
+                ▼
+       OpenCV BGR → RGB
+                │
+                ▼
+        MediaPipe Pose
+                │
+                ▼
+       Detect 33 Landmarks
+                │
+                ▼
+        POSE_CONNECTIONS
+                │
+                ▼
+       Draw Skeleton
+                │
+                ▼
+       Display on Screen
+                │
+                ▼
+        Press Q → Exit
